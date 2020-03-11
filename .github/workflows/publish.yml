@@ -18,6 +18,6 @@ jobs:
     - name: Install Packages
       run: npm install
     - name: Deploy to GH Pages
-      run: npm run deploy
+      run: npm run deploy:prod
     - name: Updating Domain
       run: echo "Update domain"
