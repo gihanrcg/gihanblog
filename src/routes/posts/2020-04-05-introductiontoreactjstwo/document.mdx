@@ -1,6 +1,7 @@
 
 
 import styles from './document.module.css'
+import ReactPlayer from 'react-player'
 
 
 <div className={styles["Welcome"]}>
@@ -13,17 +14,20 @@ import styles from './document.module.css'
 ##  Please find the video from below. 
 
 
-Sorry for the bad audio :( 
+
 
 
 <br/>
 Source Code : <a href="https://github.com/gihanrcg/reactjs-tutorial"> https://github.com/gihanrcg/reactjs-tutorial</a>
-<br/>
-Shared Video : <a href="https://drive.google.com/open?id=1ZlWkorIGFNWm1bTJjj3_2pIgAR0L-bJN">https://drive.google.com/open?id=1ZlWkorIGFNWm1bTJjj3_2pIgAR0L-bJN</a>
 
+<div width="100%">
+  <ReactPlayer
+    width="100%"
+    url="https://youtu.be/GOZZxKLr2Fc"
+    controls="true"    
+  />
+</div>
 
-<iframe src="https://drive.google.com/file/d/1ZlWkorIGFNWm1bTJjj3_2pIgAR0L-bJN/preview" width="640" height="480">
-</iframe>
 
 
 </div>
