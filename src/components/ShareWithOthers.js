@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import {
-    EmailShareButton,
     FacebookShareButton,
     LinkedinShareButton,
     WhatsappShareButton,
     TwitterShareButton
 } from 'react-share';
 import {
-    EmailIcon,
     FacebookIcon,
     LinkedinIcon,
     TwitterIcon,

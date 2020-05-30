@@ -6,6 +6,8 @@ import ArticleMeta from './ArticleMeta'
 import Bio from './Bio'
 import styles from './BlogPostLayout.module.css'
 import ShareWithOthers from './ShareWithOthers'
+// import CommentSection from './commentSection/CommentSection'
+// import base, { auth, providers } from "./commentSection/base";
 
 function BlogPostLayout({ blogRoot }) {
   let { title, data, url } = useCurrentRoute()
@@ -40,6 +42,8 @@ function BlogPostLayout({ blogRoot }) {
         </MDXProvider>
        
        <ShareWithOthers url={window.location.href} title={title}/>
+
+       {/* <CommentSection base={base} auth={auth} providers={providers} /> */}
 
         <footer className={styles.footer}>
           <h3 className={styles.title}>

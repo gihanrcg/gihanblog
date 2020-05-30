@@ -1,13 +1,12 @@
 import React from 'react'
 import styles from './Bio.module.css'
-import { getGravatarURL } from '../utils/getGravatarURL'
 import myphoto from '../img/gihan.jpg'
 
 function Bio(props) {
-  let photoURL = getGravatarURL({
-    email: "test1@example.com",
-    size: 56,
-  })
+  // let photoURL = getGravatarURL({
+  //   email: "test1@example.com",
+  //   size: 56,
+  // })
 
   return (
     <div className={`
@@ -21,7 +20,7 @@ function Bio(props) {
         <i> Problem solver, Leader, Tech Enthusiast, Public Speaker and a student who seeks
           opportunities to enhance and share knowledge in any way I can.</i>
         <br />
-        <a href="https://gihanrcg.github.io/" ><b>Who am I ? </b></a>
+        <a href="https://gihanrcg.github.io/me/" ><b>Who am I ? </b></a>
       </p>
     </div>
   )
