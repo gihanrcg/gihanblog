@@ -5,6 +5,7 @@ import ArticleSummary from './ArticleSummary'
 import Bio from './Bio'
 import Pagination from './Pagination'
 import styles from './BlogIndexPage.module.css'
+import ShareWithOthers from './ShareWithOthers'
 
 function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
@@ -18,6 +19,7 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
         
         <Bio />
       </header>
+      <ShareWithOthers url='https://gihanblog.netlify.app/' title='Personal Blog of Gihan Siriwardhana' />
       <ul className={styles.articlesList}>
         {postRoutes.map(route => (
           <li key={route.url.href}>
