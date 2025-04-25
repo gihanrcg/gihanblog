@@ -9,6 +9,10 @@ function Bio(props) {
   // })
 
   return (
+    <hello></hello>
+  )
+
+  return (
     <div className={`
       ${styles.Bio}
       ${props.className || ''}
