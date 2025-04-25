@@ -13,7 +13,7 @@ function Bio(props) {
   )
 
   return (
-    <div className={`
+    <div className={` 
       ${styles.Bio}
       ${props.className || ''}
     `}>
