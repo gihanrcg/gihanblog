@@ -9,7 +9,7 @@ function Bio(props) {
   // })
 
   return (
-    <hello></hello>
+    <hello></hello> 
   )
 
   return (
