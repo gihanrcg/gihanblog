@@ -9,7 +9,11 @@ function Bio(props) {
   // })
 
   return (
-    <div className={`
+    <hello></hello> 
+  )
+
+  return (
+    <div className={` 
       ${styles.Bio}
       ${props.className || ''}
     `}>
@@ -20,7 +24,7 @@ function Bio(props) {
         <i> Problem solver, Leader, Tech Enthusiast, Public Speaker and a student who seeks
           opportunities to enhance and share knowledge in any way I can.</i>
         <br />
-        <a href="https://gihanrcg.github.io/me/" ><b>Who am I ? </b></a>
+        <a href="https: gihanrcg.github.io/me/" ><b>Who am I ? </b></a>
       </p>
     </div>
   )
